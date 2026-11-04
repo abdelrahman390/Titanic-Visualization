@@ -67,7 +67,7 @@ import plotly.express as px
 sns.set_theme(style='whitegrid')
 plt.rcParams['figure.figsize'] = (8, 5)
 
-url = 'https://raw.githubusercontent.com/abdelrahman390/DEPI-R5-Databases/main/titanic-train.csv'
+url = 'https://raw.githubusercontent.com/abdelrahman390/Titanic-Visualization/main/titanic-train.csv'
 
 # Load the Titanic training data
 df = pd.read_csv(url)
